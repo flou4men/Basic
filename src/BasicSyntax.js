@@ -1,4 +1,4 @@
-function romanToInteger(roman) {
+export function romanToInteger(roman) {
     const values = {
         I: 1,
         V: 5,
@@ -6,7 +6,7 @@ function romanToInteger(roman) {
         L: 50,
         C: 100,
         D: 500,
-        M: 1000
+        M: 1000,
     };
 
     let result = 0;
